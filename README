@@ -1,2 +1,9 @@
 # Nauka Javy i JSoup
 Aplikacja wyświetlająca aktualną cenę USD/PLN.
+
+How to compile?
+javac AppFrame.java
+javac -cp .:jsoup-1.10.1.jar USDtoPLN.java
+
+How to run?
+java -cp .:jsoup-1.10.1.jar USDtoPLN.java
